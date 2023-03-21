@@ -1,0 +1,16 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    code:
+        label: 'depcore.coupons::lang.controller.code'
+        span: left
+    sent_at: 
+        label: 'depcore.coupons::lang.controller.sent_at'
+        type: datepicker
+        span: right
+        disabled: true
+    is_used: 
+        label: 'depcore.coupons::lang.controller.is_used'
+        type: switch

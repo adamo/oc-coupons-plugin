@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Coupon
+
+# Model Form Field configuration
+form: $/depcore/coupons/models/coupon/fields.yaml
+
+# Model Class name
+modelClass: Depcore\Coupons\Models\Coupon
+
+# Default redirect location
+defaultRedirect: depcore/coupons/coupons
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: depcore/coupons/coupons/update/:id
+    redirectClose: depcore/coupons/coupons
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: depcore/coupons/coupons
+    redirectClose: depcore/coupons/coupons
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

@@ -1,0 +1,12 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: id
+    code: 
+        label: 'depcore.coupons::lang.controller.code'
+    is_used: 
+        label: 'depcore.coupons::lang.controller.is_used'
+        type: switch
